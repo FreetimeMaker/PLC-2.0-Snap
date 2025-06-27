@@ -1,4 +1,4 @@
-name: plc
+name: freetimemaker-plc1
 base: core22
 version: '1.0.1'
 summary: Clicker game with programming languages
@@ -44,3 +44,10 @@ parts:
       - libvorbisenc2
       - libvorbisfile3
       - libwebp7
+  architectures:
+  - build-on: s390x
+  - build-on: ppc64el
+  - build-on: arm64
+  - build-on: armhf
+  - build-on: amd64
+  - build-on: i386
