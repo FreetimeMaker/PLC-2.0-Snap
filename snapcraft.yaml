@@ -1,4 +1,4 @@
-name: freetimemaker-plc1
+name: freetimemaker-plc
 base: core22
 version: '1.0.1'
 summary: Clicker game with programming languages
