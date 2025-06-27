@@ -38,8 +38,7 @@ parts:
     desktop-gtk2:
       plugin: make
       source: https://github.com/ubuntu/snapcraft-desktop-helpers.git
-      source-subdir: gtk
-      source-commit: 2b19c9f3dc7e7b11a8a3b50b50f4b61fc57a1d8b
+      source-subdir: gtk2
       make-parameters:
         - FLAVOR=gtk2
       build-packages:
