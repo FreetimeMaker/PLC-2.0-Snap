@@ -33,7 +33,7 @@ parts:
     plugin: dump
     source: snap/local
     override-build: |
-      chmod 644 meta/gui/plc.desktop
+      find . -name 'plc.desktop' -exec chmod 644 {} \;
       snapcraftctl build
     stage-packages:
       - libgl1-mesa-dri
