@@ -4,7 +4,7 @@ Name=PLC 2.0
 
 Comment=My First Unity Snap Game
 
-Exec=PLC2.0.x86_64
+Exec=plc
 
 Icon=${SNAP}/meta/gui/plc.png
 
