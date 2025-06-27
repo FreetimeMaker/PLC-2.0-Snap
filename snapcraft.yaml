@@ -35,16 +35,17 @@ parts:
       - libvorbisfile3
       - libwebp6
 
-  desktop-gtk2:
-    build-packages:
-      - build-essential
-      - libgtk2.0-dev
-    make-parameters:
-      - FLAVOR=gtk2
-    plugin: make
-    source: https://github.com/FreetimeMaker/PLC-2.0-Snap.git
-    source-subdir: gtk
-    stage-packages:
+    desktop-gtk2:
+      plugin: make
+      source: https://github.com/ubuntu/snapcraft-desktop-helpers.git
+      source-subdir: gtk
+      source-commit: 2b19c9f3dc7e7b11a8a3b50b50f4b61fc57a1d8b
+      make-parameters:
+        - FLAVOR=gtk2
+      build-packages:
+        - build-essential
+        - libgtk2.0-dev
+      stage-packages:
       - libxkbcommon0
       - ttf-ubuntu-font-family
       - dmz-cursor-theme
