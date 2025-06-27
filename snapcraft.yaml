@@ -1,4 +1,5 @@
 name: freetimemaker-plc
+title: PLC 2.0
 base: core22
 version: '1.0.1'
 summary: Clicker game with programming languages
