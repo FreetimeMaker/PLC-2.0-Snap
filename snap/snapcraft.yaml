@@ -32,6 +32,9 @@ parts:
   plc:
     plugin: dump
     source: snap/local
+    override-build: |
+      chmod 644 meta/gui/plc.desktop
+      snapcraftctl build
     stage-packages:
       - libgl1-mesa-dri
       - libglu1-mesa
