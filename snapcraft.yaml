@@ -42,7 +42,7 @@ parts:
     make-parameters:
       - FLAVOR=gtk2
     plugin: make
-    source: https://github.com/ubuntu/snapcraft-desktop-helpers.git
+    source: https://github.com/FreetimeMaker/PLC-2.0-Snap.git
     source-subdir: gtk
     stage-packages:
       - libxkbcommon0
